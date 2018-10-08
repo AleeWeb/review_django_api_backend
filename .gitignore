@@ -1,0 +1,40 @@
+*.py[cod]
+
+# C extensions
+*.so
+
+venv/*
+*.save
+
+# Packages
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# misc
+.DS_Store
+
+# Unit test / coverage reports
+.coverage
+coverage.*
+.tox
+nosetests.xml
+
+.idea
+.idea/*
+
+
