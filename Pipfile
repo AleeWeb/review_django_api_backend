@@ -8,6 +8,8 @@ django = "==2.1.2"
 djangorestframework = "*"
 django-heroku = "*"
 pygments = "*"
+dj-database-url = "*"
+pillow = "*"
 
 [dev-packages]
 

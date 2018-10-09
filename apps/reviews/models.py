@@ -8,11 +8,12 @@ STYLE_CHOICES = sorted((item, item) for item in get_all_styles())
 
 
 class Review(models.Model):
-    review_title = models.CharField(max_length=60, blank=True, default='')
+    review_title = models.CharField(max_length=100, blank=True, default='')
     username = models.CharField(max_length=100, blank=True, default='')
     review_date = models.DateTimeField(auto_now_add=True)
     product = models.CharField(max_length=60, blank=True, default='')
-    user_review = models.CharField(max_length=200, blank=True, default='')
+    image = models.ImageField(upload_to='images')   # Directory name is 'images'
+    user_review = models.CharField(max_length=500, blank=True, default='')
     
 
     class Meta:
