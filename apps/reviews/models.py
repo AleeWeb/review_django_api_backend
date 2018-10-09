@@ -12,7 +12,7 @@ class Review(models.Model):
     username = models.CharField(max_length=100, blank=True, default='')
     review_date = models.DateTimeField(auto_now_add=True)
     product = models.CharField(max_length=60, blank=True, default='')
-    image = models.ImageField(upload_to='images', blank=True, null=True)   # Directory name is 'images'
+    image_url = models.UrlField(blank=True, null=True)
     user_review = models.CharField(max_length=500, blank=True, default='')
     
 
