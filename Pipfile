@@ -5,12 +5,13 @@ name = "pypi"
 
 [packages]
 django = "==2.1.2"
-djangorestframework = "*"
+djangorestframework = "<3.8"
 django-heroku = "*"
 pygments = "*"
 dj-database-url = "*"
 pillow = "*"
 django-cors-headers = "*"
+gunicorn = "*"
 
 [dev-packages]
 
