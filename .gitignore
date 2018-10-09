@@ -37,4 +37,5 @@ nosetests.xml
 .idea
 .idea/*
 
-
+media/*
+*.sql*
