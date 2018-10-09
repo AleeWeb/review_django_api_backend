@@ -122,4 +122,4 @@ MEDIA_URL = '/media/'
 
 MEDIA_ROOT = os.path.join(os.path.dirname(BASE_DIR), 'user_review', 'media')
 
-CORS_ORIGIN_WHITELIST = 'localhost:3000',
+CORS_ORIGIN_WHITELIST = ('localhost:3000', 'product-tech-reviews.herokuapp.com')
