@@ -10,6 +10,7 @@ django-heroku = "*"
 pygments = "*"
 dj-database-url = "*"
 pillow = "*"
+django-cors-headers = "*"
 
 [dev-packages]
 
