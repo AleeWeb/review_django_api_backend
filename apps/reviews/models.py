@@ -13,6 +13,7 @@ class Review(models.Model):
     review_date = models.DateTimeField(auto_now_add=True)
     product = models.CharField(max_length=60, blank=True, default='')
     image_url = models.URLField(blank=True, null=True)
+    product_url = models.URLField(blank=True, null=True)
     user_review = models.CharField(max_length=500, blank=True, default='')
     
 
